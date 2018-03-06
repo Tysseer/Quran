@@ -1,0 +1,1 @@
+Generated Envelope at 90msec, then discretized at 0.15*mean
