@@ -1,7 +1,7 @@
 pkg load signal
 %[x,fs] = audioread('D:\Audio\Trials\TrySoundFile\001006 - copy (4).wav');
 %[x,fs] = audioread('C:\Data\MachineLearning\Quran\TrySoundFile\001006 - copy (4).wav');
-[x,fs] = audioread('C:\Data\MachineLearning\Quran\Data\Ihdina - WAV\001006 - copy (4).wav');
+[x,fs] = audioread('C:\Data\MachineLearning\Quran\Data\Ihdina-WAV\001006 - copy (4).wav');
 [m,n] = size(x);
 totalT = m/fs;
 nWndSize = floor(m*(0.009/totalT));%90 msec is the chosen window size = 
